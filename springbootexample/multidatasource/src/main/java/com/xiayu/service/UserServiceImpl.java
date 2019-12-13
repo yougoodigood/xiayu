@@ -17,9 +17,6 @@ public class UserServiceImpl implements IUserService{
     @Autowired
     private UserMapper userMapper;
 
-    @Autowired
-    private RedisTemplate redisTemplate;
-
     @Cacheable
     public UserVo getUserByUserId(String userId) {
         UserVo userVo = new UserVo();
