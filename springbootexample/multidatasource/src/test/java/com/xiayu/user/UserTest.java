@@ -2,11 +2,13 @@ package com.xiayu.user;
 
 import com.xiayu.entity.UserEntity;
 import com.xiayu.mapper.UserMapper;
+import lombok.ToString;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.test.context.junit4.SpringRunner;
 
 import javax.sql.DataSource;
@@ -21,6 +23,9 @@ public class UserTest {
     @Autowired
     private UserMapper userMapper;
 
+    @Autowired
+    private RedisTemplate redisTemplate;
+
     @Test
     public void getUserById() throws Exception{
 //        primaryDataSource.getConnection();
@@ -33,5 +38,17 @@ public class UserTest {
         if (primaryDataSource == null){
             System.out.println("null");
         }
+    }
+
+    @Test
+    public void testRedisTemplate(){
+        redisTemplate.opsForValue().set("sunliqian",267);
+
+    }
+
+    @Test
+    public void testGetValue(){
+        int sunliqian = (int)redisTemplate.opsForValue().get("sunliqian");
+        System.out.println("sunliqian:" + sunliqian);
     }
 }
