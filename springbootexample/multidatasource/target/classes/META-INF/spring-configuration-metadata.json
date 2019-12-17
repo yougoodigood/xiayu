@@ -2,51 +2,10 @@
   "hints": [],
   "groups": [
     {
-      "sourceType": "com.xiayu.config.PrimaryDatasourceConfig",
-      "name": "mybatis.primary.datasource",
-      "type": "com.xiayu.config.PrimaryDatasourceConfig"
-    },
-    {
-      "sourceType": "com.xiayu.config.SlaveDatasourceConfig",
-      "name": "mybatis.slave.datasource",
-      "type": "com.xiayu.config.SlaveDatasourceConfig"
+      "sourceType": "com.xiayu.config.ShardingDatasourceConfig",
+      "name": "mybatis.sharding.datasource",
+      "type": "com.xiayu.config.ShardingDatasourceConfig"
     }
   ],
-  "properties": [
-    {
-      "sourceType": "com.xiayu.config.PrimaryDatasourceConfig",
-      "name": "mybatis.primary.datasource.password",
-      "type": "java.lang.String"
-    },
-    {
-      "sourceType": "com.xiayu.config.PrimaryDatasourceConfig",
-      "name": "mybatis.primary.datasource.url",
-      "type": "java.lang.String"
-    },
-    {
-      "sourceType": "com.xiayu.config.PrimaryDatasourceConfig",
-      "name": "mybatis.primary.datasource.username",
-      "type": "java.lang.String"
-    },
-    {
-      "sourceType": "com.xiayu.config.SlaveDatasourceConfig",
-      "name": "mybatis.slave.datasource.driver-class-name",
-      "type": "java.lang.String"
-    },
-    {
-      "sourceType": "com.xiayu.config.SlaveDatasourceConfig",
-      "name": "mybatis.slave.datasource.password",
-      "type": "java.lang.String"
-    },
-    {
-      "sourceType": "com.xiayu.config.SlaveDatasourceConfig",
-      "name": "mybatis.slave.datasource.url",
-      "type": "java.lang.String"
-    },
-    {
-      "sourceType": "com.xiayu.config.SlaveDatasourceConfig",
-      "name": "mybatis.slave.datasource.username",
-      "type": "java.lang.String"
-    }
-  ]
+  "properties": []
 }

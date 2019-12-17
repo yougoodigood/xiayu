@@ -6,7 +6,28 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="config-utility" />
+        <module name="encrypt-raw-jdbc-example" />
+        <module name="encrypt-spring-boot-example" />
+        <module name="encrypt-spring-namespace-example" />
+        <module name="example-api" />
+        <module name="example-raw-jdbc" />
+        <module name="example-spring-jpa" />
+        <module name="example-spring-mybatis" />
+        <module name="hint-raw-jdbc-example" />
         <module name="multidatasource" />
+        <module name="orchestration-raw-jdbc-example" />
+        <module name="orchestration-spring-boot-example" />
+        <module name="orchestration-spring-namespace-example" />
+        <module name="sharding-proxy-boot-mybatis-example" />
+        <module name="sharding-proxy-hint-example" />
+        <module name="sharding-raw-jdbc-example" />
+        <module name="sharding-spring-boot-jpa-example" />
+        <module name="sharding-spring-boot-mybatis-example" />
+        <module name="sharding-spring-namespace-jpa-example" />
+        <module name="sharding-spring-namespace-mybatis-example" />
+        <module name="transaction-2pc-xa-raw-jdbc-example" />
+        <module name="transaction-base-seata-raw-jdbc-example" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

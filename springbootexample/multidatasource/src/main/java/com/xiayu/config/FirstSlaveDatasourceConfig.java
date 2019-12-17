@@ -1,6 +1,5 @@
 //package com.xiayu.config;
 //
-//
 //import com.alibaba.druid.pool.DruidDataSource;
 //import com.xiayu.constants.DataSourceConstants;
 //import com.zaxxer.hikari.HikariDataSource;
@@ -11,21 +10,22 @@
 //import org.springframework.boot.context.properties.ConfigurationProperties;
 //import org.springframework.context.annotation.Bean;
 //import org.springframework.context.annotation.Configuration;
+//import org.springframework.context.annotation.Primary;
+//import org.springframework.jdbc.datasource.DataSourceTransactionManager;
 //
 //import javax.sql.DataSource;
 //
 ////@Configuration
-////@ConfigurationProperties(prefix = DataSourceConstants.PRIMARY_DATASOURCE_PREFIX)
-//public class PrimaryDatasourceConfig {
-//
+////@ConfigurationProperties(DataSourceConstants.FIRST_SLAVE_DATASOURCE_PREFIX)
+//public class FirstSlaveDatasourceConfig {
 //    private String url;
 //
 //    private String username;
 //
 //    private String password;
 //
-//    @Bean("primaryDataSource")
-//    public DataSource primaryDataSource(){
+//    @Bean("firstSlaveDataSource")
+//    public DataSource firstSlaveDataSource(){
 //        HikariDataSource dataSource = new HikariDataSource();
 //        dataSource.setJdbcUrl(url);
 //        dataSource.setUsername(username);

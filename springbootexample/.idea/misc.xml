@@ -5,6 +5,7 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$USER_HOME$/Downloads/incubator-shardingsphere-example-dev/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
