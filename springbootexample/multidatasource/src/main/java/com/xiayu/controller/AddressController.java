@@ -13,7 +13,7 @@ public class AddressController {
     private IAddressService addressService;
 
     @PutMapping("/insertAddress")
-    public boolean insertAddress(@RequestBody String address){
+    public boolean insertAddress(@RequestParam("address") String address){
         AddressVo addressVo = new AddressVo();
         addressVo.setAddress(address);
         return addressService.insertAddress(addressVo);

@@ -46,7 +46,6 @@ public class ShardingDatasourceConfig {
 
     private DataSource getDataSource(String datasourceName){
         HikariDataSource dataSource = new HikariDataSource();
-        System.out.println(url);
         String jdbcUrl = String.format(url,datasourceName);
         dataSource.setJdbcUrl(jdbcUrl);
         dataSource.setUsername(username);

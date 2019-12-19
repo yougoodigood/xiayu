@@ -1,3 +1,5 @@
+multidatasource 1主 2从 3从  4主 5从 6从
+
 CREATE TABLE `t_user_1`  (
   `id` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
   `name` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,
