@@ -2,10 +2,71 @@
   "hints": [],
   "groups": [
     {
+      "sourceType": "com.xiayu.config.FirstSlaveDatasourceConfig",
+      "name": "mybatis.first-slave.datasource",
+      "type": "com.xiayu.config.FirstSlaveDatasourceConfig"
+    },
+    {
+      "sourceType": "com.xiayu.config.PrimaryDatasourceConfig",
+      "name": "mybatis.primary.datasource",
+      "type": "com.xiayu.config.PrimaryDatasourceConfig"
+    },
+    {
+      "sourceType": "com.xiayu.config.SecondSlaveDatasourceConfig",
+      "name": "mybatis.second-slave.datasource",
+      "type": "com.xiayu.config.SecondSlaveDatasourceConfig"
+    },
+    {
       "sourceType": "com.xiayu.config.ShardingDatasourceConfig",
       "name": "mybatis.sharding.datasource",
       "type": "com.xiayu.config.ShardingDatasourceConfig"
     }
   ],
-  "properties": []
+  "properties": [
+    {
+      "sourceType": "com.xiayu.config.FirstSlaveDatasourceConfig",
+      "name": "mybatis.first-slave.datasource.password",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.xiayu.config.FirstSlaveDatasourceConfig",
+      "name": "mybatis.first-slave.datasource.url",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.xiayu.config.FirstSlaveDatasourceConfig",
+      "name": "mybatis.first-slave.datasource.username",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.xiayu.config.PrimaryDatasourceConfig",
+      "name": "mybatis.primary.datasource.password",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.xiayu.config.PrimaryDatasourceConfig",
+      "name": "mybatis.primary.datasource.url",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.xiayu.config.PrimaryDatasourceConfig",
+      "name": "mybatis.primary.datasource.username",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.xiayu.config.SecondSlaveDatasourceConfig",
+      "name": "mybatis.second-slave.datasource.password",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.xiayu.config.SecondSlaveDatasourceConfig",
+      "name": "mybatis.second-slave.datasource.url",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.xiayu.config.SecondSlaveDatasourceConfig",
+      "name": "mybatis.second-slave.datasource.username",
+      "type": "java.lang.String"
+    }
+  ]
 }

@@ -9,21 +9,21 @@ mybatis:
       url: jdbc:mysql://127.0.0.1:3306/multidatasource%s?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=false
       username: root
       password: root
-  primary:
-    datasource:
-      url: jdbc:mysql://127.0.0.1:3306/multidatasource%s?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=false
-      username: root
-      password: root
-  first-slave:
-    datasource:
-      url: jdbc:mysql://127.0.0.1:3306/multidatasource1?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=false
-      username: root
-      password: root
-  second-slave:
-    datasource:
-      url: jdbc:mysql://127.0.0.1:3306/multidatasource2?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=false
-      username: root
-      password: root
+#  primary:
+#    datasource:
+#      url: jdbc:mysql://127.0.0.1:3306/multidatasource1%s?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=false
+#      username: root
+#      password: root
+#  first-slave:
+#    datasource:
+#      url: jdbc:mysql://127.0.0.1:3306/multidatasource2?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=false
+#      username: root
+#      password: root
+#  second-slave:
+#    datasource:
+#      url: jdbc:mysql://127.0.0.1:3306/multidatasource3?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=false
+#      username: root
+#      password: root
   redis:
     host: 127.0.0.1
     port: 6379

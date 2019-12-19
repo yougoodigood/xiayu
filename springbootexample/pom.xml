@@ -51,8 +51,7 @@
         <caffeine.version>2.5.5</caffeine.version>
         <spring-retry.version>1.2.1.RELEASE</spring-retry.version>
         <redis.version>1.4.3.RELEASE</redis.version>
-        <sharding-jdbc.version>2.0.0.M2</sharding-jdbc.version>
-        <sharding-jdbc-old.version>1.5.4.1</sharding-jdbc-old.version>
+        <shardingsphere.version>4.0.0-RC3</shardingsphere.version>
         <hikaricp.version>3.4.1</hikaricp.version>
         <!--<lombok.version>1.16.18</lombok.version>-->
         <rocketmq.version>4.1.0-incubating</rocketmq.version>
@@ -236,29 +235,25 @@
                 <version>${kafka-clients.version}</version>
             </dependency>
 
-            <!-- Sharding-jdbc -->
             <dependency>
-                <groupId>io.shardingjdbc</groupId>
-                <artifactId>sharding-jdbc-core</artifactId>
-                <version>${sharding-jdbc.version}</version>
+                <groupId>org.apache.shardingsphere</groupId>
+                <artifactId>sharding-core-api</artifactId>
+                <version>${shardingsphere.version}</version>
             </dependency>
-
             <dependency>
-                <groupId>io.shardingjdbc</groupId>
+                <groupId>org.apache.shardingsphere</groupId>
+                <artifactId>sharding-jdbc-core</artifactId>
+                <version>${shardingsphere.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.shardingsphere</groupId>
+                <artifactId>sharding-transaction-core</artifactId>
+                <version>${shardingsphere.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.shardingsphere</groupId>
                 <artifactId>sharding-jdbc-spring-boot-starter</artifactId>
-                <version>${sharding-jdbc.version}</version>
-            </dependency>
-
-            <dependency>
-                <groupId>com.dangdang</groupId>
-                <artifactId>sharding-jdbc-core</artifactId>
-                <version>${sharding-jdbc-old.version}</version>
-            </dependency>
-
-            <dependency>
-                <groupId>io.shardingjdbc</groupId>
-                <artifactId>sharding-jdbc-transaction</artifactId>
-                <version>${sharding-jdbc.version}</version>
+                <version>${shardingsphere.version}</version>
             </dependency>
 
             <dependency>

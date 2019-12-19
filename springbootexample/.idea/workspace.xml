@@ -2,33 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b1687b6-78f8-4e7c-9e14-3051aa7ed281" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/multidatasource/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/multidatasource/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/MultiDataSourceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/MultiDataSourceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/config/PrimaryDatasourceConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/config/SlaveDatasourceConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/constants/DataSourceConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/constants/DataSourceConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/config/FirstSlaveDatasourceConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/config/FirstSlaveDatasourceConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/config/PrimaryDatasourceConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/config/PrimaryDatasourceConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/config/SecondSlaveDatasourceConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/config/SecondSlaveDatasourceConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/config/ShardingDatasourceConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/config/ShardingDatasourceConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/entity/UserEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/entity/UserEntity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/mapper/UserMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/service/IUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/service/IUserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/service/UserServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/vo/UserVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/vo/UserVo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/multidatasource/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/multidatasource/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/multidatasource/src/main/resources/sql/t_user.sql" beforeDir="false" afterPath="$PROJECT_DIR$/multidatasource/src/main/resources/sql/create.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/multidatasource/src/test/java/com/xiayu/user/UserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/multidatasource/src/test/java/com/xiayu/user/UserTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/multidatasource/target/classes/META-INF/spring-configuration-metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/multidatasource/target/classes/META-INF/spring-configuration-metadata.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/multidatasource/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/multidatasource/target/classes/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/multidatasource/target/classes/com/xiayu/MultiDataSourceApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/multidatasource/target/classes/com/xiayu/MultiDataSourceApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/multidatasource/target/classes/com/xiayu/config/PrimaryDatasourceConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/multidatasource/target/classes/com/xiayu/config/SlaveDatasourceConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/multidatasource/target/classes/com/xiayu/constants/DataSourceConstants.class" beforeDir="false" afterPath="$PROJECT_DIR$/multidatasource/target/classes/com/xiayu/constants/DataSourceConstants.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/multidatasource/target/classes/com/xiayu/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/multidatasource/target/classes/com/xiayu/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/multidatasource/target/classes/com/xiayu/entity/UserEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/multidatasource/target/classes/com/xiayu/entity/UserEntity.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/multidatasource/target/classes/com/xiayu/mapper/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/multidatasource/target/classes/com/xiayu/mapper/UserMapper.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/multidatasource/target/classes/com/xiayu/service/IUserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/multidatasource/target/classes/com/xiayu/service/IUserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/multidatasource/target/classes/com/xiayu/service/UserServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/multidatasource/target/classes/com/xiayu/service/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/multidatasource/target/classes/com/xiayu/service/UserServiceImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/multidatasource/target/classes/com/xiayu/vo/UserVo.class" beforeDir="false" afterPath="$PROJECT_DIR$/multidatasource/target/classes/com/xiayu/vo/UserVo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/multidatasource/target/test-classes/META-INF/multidatasource.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/multidatasource/target/classes/sql/t_user.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/multidatasource/target/test-classes/com/xiayu/user/UserTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/multidatasource/target/test-classes/com/xiayu/user/UserTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -78,25 +79,12 @@
     <option name="myElementSize" value="209" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/config/ShardingDatasourceConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <marker date="1576477896582" expanded="true" signature="158:248" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/mapper/UserMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
-              <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+            <state relative-caret-position="145">
+              <caret line="51" column="41" lean-forward="true" selection-start-line="51" selection-start-column="41" selection-end-line="51" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -105,28 +93,46 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/config/FirstSlaveDatasourceConfig.java">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shardingsphere/sharding-jdbc-spring-boot-starter/4.0.0-RC3/sharding-jdbc-spring-boot-starter-4.0.0-RC3.jar!/org/apache/shardingsphere/shardingjdbc/spring/boot/SpringBootConfiguration.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+            <state relative-caret-position="345">
+              <caret line="58" column="28" lean-forward="true" selection-start-line="58" selection-start-column="28" selection-end-line="58" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/config/PrimaryDatasourceConfig.java">
+        <entry file="jar://$MAVEN_REPOSITORY$/io/shardingjdbc/sharding-jdbc-core/2.0.3/sharding-jdbc-core-2.0.3.jar!/io/shardingjdbc/core/api/config/ShardingRuleConfiguration.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="28" column="31" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
+            <state relative-caret-position="135">
+              <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/service/UserServiceImpl.java">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-300">
-              <caret line="17" column="34" lean-forward="true" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+            <state relative-caret-position="257">
+              <caret line="241" column="25" selection-start-line="241" selection-start-column="25" selection-end-line="241" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/multidatasource/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="78" column="56" selection-start-line="78" selection-start-column="56" selection-end-line="78" selection-end-column="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/mapper/AddressMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="174">
+              <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -135,10 +141,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/controller/UserController.java">
+        <entry file="file://$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/service/IAddressService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="181">
-              <caret line="27" column="31" lean-forward="true" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
+            <state relative-caret-position="174">
+              <caret line="8" column="40" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -147,10 +153,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/vo/UserVo.java">
+        <entry file="file://$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/service/AddressServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-23">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="12">
+              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -158,20 +164,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/service/IUserService.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/controller/AddressController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="206">
-              <caret line="9" column="22" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/entity/UserEntity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+            <state relative-caret-position="278">
+              <caret line="21" column="34" lean-forward="true" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -182,12 +179,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/MultiDataSourceApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="101">
-              <caret line="6" column="62" selection-start-line="6" selection-start-column="62" selection-end-line="6" selection-end-column="62" />
+            <state relative-caret-position="161">
+              <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#249#250#0" expanded="true" />
-                <element signature="e#320#321#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -205,12 +200,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>parent</find>
-      <find>mybatis</find>
-      <find>lombok</find>
-      <find>spring</find>
-      <find>MapperScan</find>
-      <find>root</find>
       <find>urlpassword</find>
       <find>primaryDataSource</find>
       <find>primarySqlSessionFactory</find>
@@ -232,9 +221,15 @@
       <find>PRIMARY_DATASOURCE_PREFIX</find>
       <find>firstSlaveDataSource</find>
       <find>primaryDatasource</find>
-      <find>jdbc</find>
       <find>127.0.0</find>
       <find>username</find>
+      <find>127.0.0.1</find>
+      <find>primaryDataSource:</find>
+      <find>sharding-jdbc.version</find>
+      <find>address</find>
+      <find>sharding-jdbc-old.version</find>
+      <find>jdbc</find>
+      <find>Properties</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -243,31 +238,39 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/multidatasource/src/main/resources/sql/t_user.sql" />
         <option value="$PROJECT_DIR$/multidatasource/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/config/SlaveDatasourceConfig.java" />
         <option value="$PROJECT_DIR$/multidatasource/src/test/java/user/UserTest.java" />
         <option value="$PROJECT_DIR$/multidatasource/src/test/java/com/xiayu/UserTest.java" />
         <option value="$PROJECT_DIR$/multidatasource/src/test/java/UserTest.java" />
         <option value="$PROJECT_DIR$/multidatasource/src/main/resources/sql/redis.txt" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/entity/UserEntity.java" />
         <option value="$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/config/RedisConfig.java" />
-        <option value="$PROJECT_DIR$/multidatasource/src/test/java/com/xiayu/user/UserTest.java" />
         <option value="$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/config/ShardingDatasource.java" />
-        <option value="$PROJECT_DIR$/multidatasource/pom.xml" />
         <option value="$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/constants/DataSourceConstants.java" />
+        <option value="$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/config/TableShardingAlgorithm.java" />
+        <option value="$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/config/PrimaryDatasourceConfig.java" />
         <option value="$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/config/SecondSlaveDatasourceConfig.java" />
         <option value="$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/config/FirstSlaveDatasourceConfig.java" />
-        <option value="$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/config/PrimaryDatasourceConfig.java" />
+        <option value="$PROJECT_DIR$/multidatasource/src/main/resources/sql/t_user.sql" />
         <option value="$PROJECT_DIR$/multidatasource/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/MultiDataSourceApplication.java" />
-        <option value="$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/vo/UserVo.java" />
         <option value="$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/service/IUserService.java" />
+        <option value="$PROJECT_DIR$/multidatasource/src/test/java/com/xiayu/user/UserTest.java" />
         <option value="$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/service/UserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/controller/UserController.java" />
         <option value="$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/mapper/UserMapper.java" />
+        <option value="$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/vo/UserVo.java" />
+        <option value="$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/entity/UserEntity.java" />
+        <option value="$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/entity/AddressEntity.java" />
+        <option value="$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/mapper/AddressMapper.java" />
+        <option value="$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/vo/AddressVo.java" />
+        <option value="$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/service/IAddressService.java" />
+        <option value="$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/service/AddressServiceImpl.java" />
+        <option value="$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/controller/AddressController.java" />
+        <option value="$PROJECT_DIR$/multidatasource/src/main/resources/sql/create.sql" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/multidatasource/pom.xml" />
         <option value="$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/config/ShardingDatasourceConfig.java" />
+        <option value="$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/MultiDataSourceApplication.java" />
       </list>
     </option>
   </component>
@@ -290,6 +293,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -370,6 +374,16 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="xiayu" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springbootexample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springbootexample" type="462c0819:PsiDirectoryNode" />
+              <item name="multidatasource" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="xiayu" type="462c0819:PsiDirectoryNode" />
               <item name="mapper" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -388,14 +402,42 @@
               <item name="multidatasource" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="xiayu" type="462c0819:PsiDirectoryNode" />
+              <item name="vo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springbootexample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springbootexample" type="462c0819:PsiDirectoryNode" />
+              <item name="multidatasource" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springbootexample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springbootexample" type="462c0819:PsiDirectoryNode" />
+              <item name="multidatasource" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="sql" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springbootexample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springbootexample" type="462c0819:PsiDirectoryNode" />
+              <item name="multidatasource" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springbootexample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -407,8 +449,8 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576489893981" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576750408199" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/incubator-shardingsphere-example-dev" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -552,6 +594,7 @@
       <option name="presentableId" value="Default" />
       <updated>1576203280800</updated>
       <workItem from="1576203286133" duration="37391000" />
+      <workItem from="1576568396064" duration="21597000" />
     </task>
     <task id="LOCAL-00001" summary="增加redis整合">
       <created>1576230257518</created>
@@ -567,7 +610,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576230997040</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="使用sharding-jdbc主从库">
+      <created>1576568537217</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1576568537217</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -603,27 +653,24 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37391000" />
+    <option name="totallyTimeSpent" value="58988000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Web" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31367293" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2935657" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Spring" />
-      <window_info anchor="bottom" id="Messages" weight="0.33994335" />
-      <window_info anchor="bottom" id="Java Enterprise" />
+      <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.22237961" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.388102" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.23937677" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.3286119" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -633,8 +680,9 @@
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="bottom" id="Version Control" order="12" weight="0.3286119" />
-      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.3297587" />
-      <window_info anchor="right" id="Bean Validation" />
+      <window_info anchor="bottom" id="Spring" order="13" />
+      <window_info anchor="bottom" id="Java Enterprise" order="14" />
+      <window_info anchor="bottom" id="Messages" order="15" weight="0.33994335" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -645,6 +693,8 @@
       <window_info anchor="right" id="Database" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="Coverage" order="10" side_tool="true" weight="0.3297587" />
+      <window_info anchor="right" id="Bean Validation" order="11" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -652,38 +702,12 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="增加redis整合" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加redis整合" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/service/UserServiceImpl.java</url>
-          <line>21</line>
-          <properties />
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="使用sharding-jdbc主从库" />
+    <option name="LAST_COMMIT_MESSAGE" value="使用sharding-jdbc主从库" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/sql.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/multidatasource/src/main/resources/sql/create.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/multidatasource/src/main/resources/sql/t_user.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/sql.java" />
+    <entry file="file://$PROJECT_DIR$/multidatasource/src/main/resources/sql/create.sql" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/9.0.24/tomcat-embed-core-9.0.24.jar!/org/apache/tomcat/util/threads/TaskThread.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -705,16 +729,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/multidatasource/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/redis/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/multidatasource/src/main/resources/application.properties" />
+    <entry file="file://$PROJECT_DIR$/redis/pom.xml" />
     <entry file="file://$PROJECT_DIR$/multidatasource/src/main/resources/sql/redis.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
@@ -736,34 +752,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/multidatasource/src/test/java/com/xiayu/user/UserTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="49" column="31" selection-start-line="49" selection-start-column="31" selection-end-line="49" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Downloads/incubator-shardingsphere-example-dev/example-core/config-utility/src/main/java/org/apache/shardingsphere/example/algorithm/PreciseModuloShardingTableAlgorithm.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
           <caret line="24" column="90" selection-start-line="24" selection-start-column="66" selection-end-line="24" selection-end-column="90" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/config/RedisConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="26" column="47" selection-start-line="26" selection-start-column="47" selection-end-line="26" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#501#502#0" expanded="true" />
-            <element signature="e#560#561#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -793,31 +787,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="49">
-          <caret line="238" column="25" selection-start-line="238" selection-start-column="17" selection-end-line="238" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/multidatasource/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="72" column="20" selection-start-line="72" selection-start-column="20" selection-end-line="72" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/constants/DataSourceConstants.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
           <caret line="13" column="89" selection-start-line="13" selection-start-column="60" selection-end-line="13" selection-end-column="89" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/multidatasource/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -828,29 +801,117 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/config/SecondSlaveDatasourceConfig.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/io/shardingjdbc/sharding-jdbc-core/2.0.0.M2/sharding-jdbc-core-2.0.0.M2.jar!/io/shardingjdbc/core/api/config/strategy/InlineShardingStrategyConfiguration.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="47" selection-end-line="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/MultiDataSourceApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
-          <caret line="6" column="62" selection-start-line="6" selection-start-column="62" selection-end-line="6" selection-end-column="62" />
+        <state relative-caret-position="253">
+          <caret line="14" column="45" lean-forward="true" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#249#250#0" expanded="true" />
-            <element signature="e#320#321#0" expanded="true" />
+            <element signature="e#0#1361#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/entity/UserEntity.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/io/shardingjdbc/sharding-jdbc-core/2.0.0.M2/sharding-jdbc-core-2.0.0.M2.jar!/io/shardingjdbc/core/routing/strategy/ShardingAlgorithmFactory.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+        <state relative-caret-position="207">
+          <caret line="12" column="72" selection-start-line="12" selection-start-column="72" selection-end-line="12" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/config/TableShardingAlgorithm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="44" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/shardingjdbc/sharding-jdbc-core/2.0.0.M2/sharding-jdbc-core-2.0.0.M2.jar!/io/shardingjdbc/core/api/config/TableRuleConfiguration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="27" column="11" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/config/RedisConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="26" column="47" selection-start-line="26" selection-start-column="47" selection-end-line="26" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multidatasource/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/shardingjdbc/sharding-jdbc-core/2.0.3/sharding-jdbc-core-2.0.3.jar!/io/shardingjdbc/core/api/config/TableRuleConfiguration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="80" column="76" selection-start-line="80" selection-start-column="47" selection-end-line="80" selection-end-column="76" />
+          <folding>
+            <element signature="e#2041#2042#0" expanded="true" />
+            <element signature="e#2079#2080#0" expanded="true" />
+            <element signature="e#2121#2122#0" expanded="true" />
+            <element signature="e#2164#2165#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/shardingjdbc/sharding-jdbc-core/2.0.3/sharding-jdbc-core-2.0.3.jar!/io/shardingjdbc/core/api/config/strategy/ShardingStrategyConfiguration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/shardingjdbc/sharding-jdbc-core/2.0.3/sharding-jdbc-core-2.0.3.jar!/io/shardingjdbc/core/api/ShardingDataSourceFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="24" column="131" selection-start-line="24" selection-start-column="131" selection-end-line="24" selection-end-column="131" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/config/FirstSlaveDatasourceConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/config/PrimaryDatasourceConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/config/SecondSlaveDatasourceConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="531">
+          <caret line="34" column="23" lean-forward="true" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1025#1026#0" expanded="true" />
+            <element signature="e#1055#1056#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multidatasource/src/test/java/com/xiayu/user/UserTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="31" column="57" selection-start-line="31" selection-start-column="57" selection-end-line="31" selection-end-column="57" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -859,8 +920,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/vo/UserVo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-23">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="181">
+          <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -869,25 +930,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/service/IUserService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="9" column="22" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="22" />
+        <state relative-caret-position="161">
+          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/service/UserServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-300">
-          <caret line="17" column="34" lean-forward="true" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+        <state relative-caret-position="134">
+          <caret line="28" column="56" selection-start-line="28" selection-start-column="56" selection-end-line="28" selection-end-column="56" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/controller/UserController.java">
+    <entry file="file://$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/service/UserServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="27" column="31" lean-forward="true" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
+        <state relative-caret-position="91">
+          <caret line="39" column="13" lean-forward="true" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/entity/UserEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -896,35 +967,119 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/mapper/UserMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+        <state relative-caret-position="122">
+          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/config/FirstSlaveDatasourceConfig.java">
+    <entry file="file://$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/entity/AddressEntity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+        <state relative-caret-position="138">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="7" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/config/PrimaryDatasourceConfig.java">
+    <entry file="file://$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/vo/AddressVo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="28" column="31" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
+        <state relative-caret-position="59">
+          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/service/IAddressService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="8" column="40" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/mapper/AddressMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/service/AddressServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/shardingjdbc/sharding-jdbc-core/2.0.3/sharding-jdbc-core-2.0.3.jar!/io/shardingjdbc/core/api/config/ShardingRuleConfiguration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multidatasource/src/main/resources/sql/create.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="241" column="25" selection-start-line="241" selection-start-column="25" selection-end-line="241" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multidatasource/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="78" column="56" selection-start-line="78" selection-start-column="56" selection-end-line="78" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shardingsphere/sharding-jdbc-spring-boot-starter/4.0.0-RC3/sharding-jdbc-spring-boot-starter-4.0.0-RC3.jar!/org/apache/shardingsphere/shardingjdbc/spring/boot/SpringBootConfiguration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="58" column="28" lean-forward="true" selection-start-line="58" selection-start-column="28" selection-end-line="58" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/MultiDataSourceApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/config/ShardingDatasourceConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+        <state relative-caret-position="145">
+          <caret line="51" column="41" lean-forward="true" selection-start-line="51" selection-start-column="41" selection-end-line="51" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1576477896582" expanded="true" signature="158:248" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/controller/AddressController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="21" column="34" lean-forward="true" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

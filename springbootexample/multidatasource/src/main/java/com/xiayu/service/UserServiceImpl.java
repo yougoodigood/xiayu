@@ -10,6 +10,8 @@ import org.springframework.cache.annotation.Cacheable;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.stereotype.Service;
 
+import java.util.Objects;
+
 @Service
 //@CacheConfig(cacheNames = "user")
 public class UserServiceImpl implements IUserService{
@@ -18,10 +20,13 @@ public class UserServiceImpl implements IUserService{
     private UserMapper userMapper;
 
 //    @Cacheable
-    public UserVo getUserByUserId(String userId) {
+    public UserVo getUserByUserId(Long userId) {
         UserVo userVo = new UserVo();
         UserEntity userEntity = userMapper.getUserById(userId);
-        BeanUtils.copyProperties(userEntity,userVo);
+        if (Objects.nonNull(userEntity)){
+            BeanUtils.copyProperties(userEntity,userVo);
+        }
+
         return userVo;
     }
 

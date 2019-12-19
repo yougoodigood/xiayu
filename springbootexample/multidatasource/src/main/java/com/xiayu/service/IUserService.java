@@ -3,7 +3,7 @@ package com.xiayu.service;
 import com.xiayu.vo.UserVo;
 
 public interface IUserService {
-    UserVo getUserByUserId(String userId);
+    UserVo getUserByUserId(Long userId);
 
     boolean insertUser(UserVo userVo);
 

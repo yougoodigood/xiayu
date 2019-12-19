@@ -29,7 +29,7 @@ public class UserTest {
     @Test
     public void getUserById() throws Exception{
 //        primaryDataSource.getConnection();
-        UserEntity userEntity = userMapper.getUserById("1");
+        UserEntity userEntity = userMapper.getUserById(1L);
         System.out.println(userEntity.getAge());
     }
 

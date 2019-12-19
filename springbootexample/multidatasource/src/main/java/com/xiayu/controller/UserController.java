@@ -12,13 +12,13 @@ public class UserController {
     private IUserService userService;
 
     @GetMapping("/getUserById")
-    public UserVo getUserById(@RequestParam("id") String id){
+    public UserVo getUserById(@RequestParam("id") Long id){
         UserVo user = userService.getUserByUserId(id);
         return user;
     }
 
-    @PostMapping("/putUser")
-    public boolean putUser(@RequestParam("id") String id,@RequestParam("name") String name,@RequestParam("age") Integer age){
+    @PostMapping("/addUser")
+    public boolean putUser(@RequestParam("id") Long id,@RequestParam("name") String name,@RequestParam("age") Integer age){
         UserVo userVo = UserVo.builder().id(id)
                                         .age(age)
                                         .name(name).build();
@@ -26,7 +26,7 @@ public class UserController {
     }
 
     @PostMapping("/updateUser")
-    public boolean updateUser(@RequestParam("id") String id,@RequestParam("name") String name,@RequestParam("age") Integer age) {
+    public boolean updateUser(@RequestParam("id") Long id,@RequestParam("name") String name,@RequestParam("age") Integer age) {
         UserVo userVo = UserVo.builder().id(id)
                 .age(age)
                 .name(name).build();
