@@ -59,12 +59,14 @@ public class ShardingDatasourceConfig {
     public DataSource shardingDataSource() throws SQLException {
 
         ShardingRuleConfiguration shardingRuleConfig = new ShardingRuleConfiguration();
-        shardingRuleConfig.getTableRuleConfigs().add(getUserTableRuleConfiguration());
-        shardingRuleConfig.getTableRuleConfigs().add(getUserDetailTableRuleConfiguration());
-        shardingRuleConfig.getBindingTableGroups().add("t_user, t_user_detail");
-        shardingRuleConfig.setMasterSlaveRuleConfigs(getMasterSlaveRuleConfigurations());
-        shardingRuleConfig.setDefaultDataSourceName("ds_1");
-        shardingRuleConfig.getBroadcastTables().add("t_address");
+        shardingRuleConfig.getTableRuleConfigs().add(getUserTableRuleConfiguration());//表进行分库并进行分表
+        shardingRuleConfig.getTableRuleConfigs().add(getUserDetailTableRuleConfiguration()); //表进行分库并进行分表
+        shardingRuleConfig.getTableRuleConfigs().add(new TableRuleConfiguration("t_order","ds_1.t_order"));//垂直分库
+        shardingRuleConfig.getTableRuleConfigs().add(new TableRuleConfiguration("t_business","ds_2.t_business"));//垂直分库
+        shardingRuleConfig.getBindingTableGroups().add("t_user, t_user_detail"); //绑定表
+        shardingRuleConfig.setMasterSlaveRuleConfigs(getMasterSlaveRuleConfigurations()); //主从设置 一主多从
+        shardingRuleConfig.setDefaultDataSourceName("ds_1"); //设置默认的数据源
+        shardingRuleConfig.getBroadcastTables().add("t_address"); //设置广播表
         DataSource dataSource = ShardingDataSourceFactory.createDataSource(getDataSourceMap(), shardingRuleConfig,new Properties());
         return dataSource;
     }
