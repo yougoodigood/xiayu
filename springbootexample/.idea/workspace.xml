@@ -3,10 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="4b1687b6-78f8-4e7c-9e14-3051aa7ed281" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/config/ShardingDatasourceConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/config/ShardingDatasourceConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/multidatasource/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/multidatasource/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/multidatasource/src/test/java/com/xiayu/user/BusinessTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/multidatasource/src/test/java/com/xiayu/user/BusinessTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/multidatasource/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/multidatasource/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootexample.iml" beforeDir="false" afterPath="$PROJECT_DIR$/xiayu.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -57,11 +55,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/config/ShardingDatasourceConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="97">
-              <caret line="63" column="67" selection-start-line="63" selection-start-column="67" selection-end-line="64" selection-end-column="68" />
+            <state relative-caret-position="166">
+              <caret line="36" column="23" lean-forward="true" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -72,8 +70,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/multidatasource/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="9" column="44" lean-forward="true" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+            <state relative-caret-position="214">
+              <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -126,11 +124,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/multidatasource/src/test/java/com/xiayu/user/BusinessTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="276">
-              <caret line="21" column="54" lean-forward="true" selection-start-line="21" selection-start-column="54" selection-end-line="21" selection-end-column="54" />
+              <caret line="21" column="54" selection-start-line="21" selection-start-column="54" selection-end-line="21" selection-end-column="54" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -261,10 +259,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="76" />
-    <option name="y" value="-25" />
-    <option name="width" value="1795" />
-    <option name="height" value="765" />
+    <option name="x" value="277" />
+    <option name="y" value="270" />
+    <option name="width" value="1437" />
+    <option name="height" value="613" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -315,46 +313,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="xiayu" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springbootexample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springbootexample" type="462c0819:PsiDirectoryNode" />
-              <item name="multidatasource" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="xiayu" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springbootexample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springbootexample" type="462c0819:PsiDirectoryNode" />
-              <item name="multidatasource" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="xiayu" type="462c0819:PsiDirectoryNode" />
-              <item name="constants" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springbootexample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springbootexample" type="462c0819:PsiDirectoryNode" />
-              <item name="multidatasource" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="xiayu" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springbootexample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springbootexample" type="462c0819:PsiDirectoryNode" />
-              <item name="multidatasource" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="xiayu" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springbootexample" type="b2602c69:ProjectViewProjectNode" />
@@ -453,8 +411,8 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576808373860" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/incubator-shardingsphere-example-dev" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576810691339" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/springBoot-master" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -493,7 +451,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BusinessTest.testInsertOrder">
+  <component name="RunManager" selected="Spring Boot.MultiDataSourceApplication">
     <configuration name="BusinessTest.testInsertOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="multidatasource" />
       <extension name="coverage">
@@ -618,7 +576,7 @@
       <option name="presentableId" value="Default" />
       <updated>1576203280800</updated>
       <workItem from="1576203286133" duration="37391000" />
-      <workItem from="1576568396064" duration="24903000" />
+      <workItem from="1576568396064" duration="26350000" />
     </task>
     <task id="LOCAL-00001" summary="增加redis整合">
       <created>1576230257518</created>
@@ -662,13 +620,17 @@
       <option name="project" value="LOCAL" />
       <updated>1576807605723</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="尝试将垂直分库的配置放在application.yml里面，但是失败了">
+      <created>1576808617753</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1576808617753</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="UserTest_getUserById - 2019.12.13 at 16h 21m 40s.xml">
-      <configuration name="UserTest.getUserById" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="UserTest_testRedisTemplate - 2019.12.13 at 17h 10m 59s.xml">
       <configuration name="UserTest.testRedisTemplate" configurationId="JUnit" />
     </history-entry>
@@ -696,9 +658,12 @@
     <history-entry file="BusinessTest_testInsertOrder - 2019.12.20 at 10h 17m 36s.xml">
       <configuration name="BusinessTest.testInsertOrder" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="BusinessTest_testInsertOrder - 2019.12.20 at 10h 19m 54s.xml">
+      <configuration name="BusinessTest.testInsertOrder" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62294000" />
+    <option name="totallyTimeSpent" value="63741000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -751,7 +716,8 @@
     <MESSAGE value="增加广播表" />
     <MESSAGE value="update sql" />
     <MESSAGE value="增加垂直分库" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加垂直分库" />
+    <MESSAGE value="尝试将垂直分库的配置放在application.yml里面，但是失败了" />
+    <option name="LAST_COMMIT_MESSAGE" value="尝试将垂直分库的配置放在application.yml里面，但是失败了" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis-spring/1.3.1/mybatis-spring-1.3.1.jar!/org/mybatis/spring/SqlSessionFactoryBean.class">
@@ -1144,27 +1110,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/multidatasource/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/multidatasource/src/test/java/com/xiayu/user/BusinessTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="44" lean-forward="true" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/config/ShardingDatasourceConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="63" column="67" selection-start-line="63" selection-start-column="67" selection-end-line="64" selection-end-column="68" />
+        <state relative-caret-position="276">
+          <caret line="21" column="54" selection-start-line="21" selection-start-column="54" selection-end-line="21" selection-end-column="54" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/multidatasource/src/test/java/com/xiayu/user/BusinessTest.java">
+    <entry file="file://$PROJECT_DIR$/multidatasource/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="21" column="54" lean-forward="true" selection-start-line="21" selection-start-column="54" selection-end-line="21" selection-end-column="54" />
+        <state relative-caret-position="214">
+          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/config/ShardingDatasourceConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="36" column="23" lean-forward="true" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

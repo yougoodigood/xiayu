@@ -1,13 +1,13 @@
 spring:
   application:
     name: multidatasource
-  shardingsphere:
-    sharding:
-      tables:
-        t_order:
-          actual-data-nodes: ds_1.t_order
-        t_business:
-          actual-data-nodes: ds_2.t_business
+#  shardingsphere:
+      ##    sharding:
+      ##      tables:
+      ##        t_order:
+      ##          actual-data-nodes: ds_1.t_order
+    ##        t_business:
+    ##          actual-data-nodes: ds_2.t_business
 server:
   port: 8082
 mybatis:
