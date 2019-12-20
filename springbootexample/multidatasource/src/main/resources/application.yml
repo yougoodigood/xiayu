@@ -1,6 +1,13 @@
 spring:
   application:
     name: multidatasource
+#  shardingsphere:
+      ##    sharding:
+      ##      tables:
+      ##        t_order:
+      ##          actual-data-nodes: ds_1.t_order
+    ##        t_business:
+    ##          actual-data-nodes: ds_2.t_business
 server:
   port: 8082
 mybatis:
@@ -9,6 +16,7 @@ mybatis:
       url: jdbc:mysql://127.0.0.1:3306/multidatasource%s?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=false
       username: root
       password: root
+
 #  primary:
 #    datasource:
 #      url: jdbc:mysql://127.0.0.1:3306/multidatasource1%s?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=false

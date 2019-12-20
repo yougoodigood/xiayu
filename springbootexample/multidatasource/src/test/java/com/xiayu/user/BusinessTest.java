@@ -17,7 +17,7 @@ public class BusinessTest {
     @Test
     public void testInsertOrder(){
         BusinessEntity businessEntity = new BusinessEntity();
-        businessEntity.setId(1);
+        businessEntity.setId(2);
         businessEntity.setBusinessDetail("businessdetail");
         businessMapper.insertBusiness(businessEntity);
     }

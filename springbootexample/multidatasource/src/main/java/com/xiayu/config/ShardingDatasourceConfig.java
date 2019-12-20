@@ -31,7 +31,6 @@ import java.util.concurrent.ConcurrentHashMap;
 @Configuration
 @ConfigurationProperties(prefix = DataSourceConstants.SHARDING_DATASOURCE_PREFIX)
 @EnableConfigurationProperties
-//@AutoConfigureAfter(value = {PrimaryDatasourceConfig.class,FirstSlaveDatasourceConfig.class,SecondSlaveDatasourceConfig.class})
 @MapperScan(basePackages = { DataSourceConstants.MAPPER_BASEPACKAGE }, sqlSessionFactoryRef = "shardingSqlSessionFactory")
 public class ShardingDatasourceConfig {
 
