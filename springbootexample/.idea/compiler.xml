@@ -26,6 +26,7 @@
         <module name="sharding-spring-boot-mybatis-example" />
         <module name="sharding-spring-namespace-jpa-example" />
         <module name="sharding-spring-namespace-mybatis-example" />
+        <module name="shiro.demo" />
         <module name="transaction-2pc-xa-raw-jdbc-example" />
         <module name="transaction-base-seata-raw-jdbc-example" />
       </profile>

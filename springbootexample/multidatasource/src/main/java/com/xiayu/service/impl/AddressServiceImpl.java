@@ -1,7 +1,8 @@
-package com.xiayu.service;
+package com.xiayu.service.impl;
 
 import com.xiayu.entity.AddressEntity;
 import com.xiayu.mapper.AddressMapper;
+import com.xiayu.service.IAddressService;
 import com.xiayu.vo.AddressVo;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -11,7 +12,7 @@ import org.springframework.stereotype.Service;
 import java.util.UUID;
 
 @Service
-public class AddressServiceImpl implements IAddressService{
+public class AddressServiceImpl implements IAddressService {
 
     @Autowired
     private AddressMapper addressMapper;

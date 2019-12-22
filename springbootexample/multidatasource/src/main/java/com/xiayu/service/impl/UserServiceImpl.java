@@ -1,7 +1,8 @@
-package com.xiayu.service;
+package com.xiayu.service.impl;
 
 import com.xiayu.entity.UserEntity;
 import com.xiayu.mapper.UserMapper;
+import com.xiayu.service.IUserService;
 import com.xiayu.vo.UserVo;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -14,7 +15,7 @@ import java.util.Objects;
 
 @Service
 //@CacheConfig(cacheNames = "user")
-public class UserServiceImpl implements IUserService{
+public class UserServiceImpl implements IUserService {
 
     @Autowired
     private UserMapper userMapper;

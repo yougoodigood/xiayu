@@ -53,6 +53,7 @@
         <redis.version>1.4.3.RELEASE</redis.version>
         <shardingsphere.version>4.0.0-RC3</shardingsphere.version>
         <hikaricp.version>3.4.1</hikaricp.version>
+        <shiro.verion>1.4.2</shiro.verion>
         <!--<lombok.version>1.16.18</lombok.version>-->
         <rocketmq.version>4.1.0-incubating</rocketmq.version>
         <dubbo.version>2.6.0</dubbo.version>
@@ -313,6 +314,17 @@
                 <version>${hikaricp.version}</version>
             </dependency>
 
+            <!--shiro-->
+            <dependency>
+                <groupId>org.apache.shiro</groupId>
+                <artifactId>shiro-core</artifactId>
+                <version>${shiro.verion}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.shiro</groupId>
+                <artifactId>shiro-spring</artifactId>
+                <version>${shiro.verion}</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 
