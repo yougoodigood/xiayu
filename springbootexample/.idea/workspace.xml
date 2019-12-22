@@ -2,16 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b1687b6-78f8-4e7c-9e14-3051aa7ed281" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/multidatasource/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/multidatasource/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/service/AddressServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/service/impl/AddressServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/multidatasource/src/main/resources/sql/create.sql" beforeDir="false" afterPath="$PROJECT_DIR$/multidatasource/src/main/resources/sql/create.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/multidatasource/target/classes/com/xiayu/service/UserServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/config/ShiroConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/config/ShiroConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/config/SystemUserAuthorizingRealm.java" beforeDir="false" afterPath="$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/config/SystemUserAuthorizingRealm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/controller/SystemUserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/controller/SystemUserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/entity/SystemUserEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/entity/SystemUserEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/mapper/SystemUserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/mapper/SystemUserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/multidatasource/src/test/java/com/xiayu/user/UserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/multidatasource/src/test/java/com/xiayu/user/UserTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/multidatasource/target/test-classes/com/xiayu/user/UserTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/multidatasource/target/test-classes/com/xiayu/user/UserTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -64,13 +62,67 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/service/impl/PermissionServiceImpl.java">
+        <entry file="file://$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/controller/SystemUserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
-              <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+            <state relative-caret-position="207">
+              <caret line="41" column="27" lean-forward="true" selection-start-line="41" selection-start-column="27" selection-end-line="41" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/multidatasource/src/test/java/com/xiayu/user/UserTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="202">
+              <caret line="66" column="11" lean-forward="true" selection-start-line="66" selection-start-column="11" selection-end-line="66" selection-end-column="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/multidatasource/src/test/java/com/xiayu/user/OrderTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="130">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/multidatasource/src/test/java/com/xiayu/user/BusinessTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="130">
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/entity/SystemUserEntity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="9" column="75" lean-forward="true" selection-start-line="9" selection-start-column="75" selection-end-line="9" selection-end-column="75" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.4.2/shiro-core-1.4.2.jar!/org/apache/shiro/crypto/hash/SimpleHash.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-215">
+              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -78,22 +130,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/config/ShiroConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2321#2322#0" expanded="true" />
-                <element signature="e#2376#2377#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/service/IPermissionService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+            <state relative-caret-position="171">
+              <caret line="30" column="48" lean-forward="true" selection-start-line="30" selection-start-column="48" selection-end-line="30" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -102,24 +140,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-spring/1.4.2/shiro-spring-1.4.2.jar!/org/apache/shiro/spring/security/interceptor/AuthorizationAttributeSourceAdvisor.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="33" column="42" selection-start-line="33" selection-start-column="42" selection-end-line="33" selection-end-column="42" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1537#1538#0" expanded="true" />
-                <element signature="e#1591#1592#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/config/SystemUserAuthorizingRealm.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="50" column="13" lean-forward="true" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
+            <state relative-caret-position="115">
+              <caret line="82" column="12" selection-start-line="82" selection-start-column="12" selection-end-line="82" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -128,50 +152,21 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar!/org/apache/commons/collections/CollectionUtils.class">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.4.2/shiro-core-1.4.2.jar!/org/apache/shiro/authc/SimpleAuthenticationInfo.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="583" selection-start-line="583" selection-end-line="583" />
-              <folding>
-                <element signature="e#18156#18157#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="181">
+              <caret line="18" column="41" lean-forward="true" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/1.8.0.RELEASE/spring-data-redis-1.8.0.RELEASE.jar!/org/springframework/data/redis/core/RedisTemplate.class">
+        <entry file="file://$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/mapper/SystemUserMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="730" selection-start-line="730" selection-end-line="730" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/MultiDataSourceApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="181">
+              <caret line="25" column="62" lean-forward="true" selection-start-line="25" selection-start-column="62" selection-end-line="25" selection-end-column="62" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#526#527#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/controller/SystemUserController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="218">
-              <caret line="56" column="55" lean-forward="true" selection-start-line="56" selection-start-column="55" selection-end-line="56" selection-end-column="55" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2137#2138#0" expanded="true" />
-                <element signature="e#2165#2166#0" expanded="true" />
-                <element signature="e#2227#2228#0" expanded="true" />
-                <element signature="e#2255#2256#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -189,8 +184,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>hikari</find>
-      <find>cache</find>
       <find>start</find>
       <find>kafka</find>
       <find>redis</find>
@@ -219,6 +212,8 @@
       <find>log</find>
       <find>shiro</find>
       <find>SecurityManager</find>
+      <find>realm</find>
+      <find>lifecycleBeanPostProcessor</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -232,7 +227,6 @@
         <option value="$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/config/FirstSlaveDatasourceConfig.java" />
         <option value="$PROJECT_DIR$/multidatasource/src/main/resources/sql/t_user.sql" />
         <option value="$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/service/IUserService.java" />
-        <option value="$PROJECT_DIR$/multidatasource/src/test/java/com/xiayu/user/UserTest.java" />
         <option value="$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/service/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/mapper/UserMapper.java" />
         <option value="$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/vo/UserVo.java" />
@@ -261,12 +255,10 @@
         <option value="$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/entity/UserGroup.java" />
         <option value="$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/entity/UserGroupPermissionGroup.java" />
         <option value="$PROJECT_DIR$/multidatasource/src/main/resources/sql/create.sql" />
-        <option value="$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/entity/SystemUserEntity.java" />
         <option value="$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/mapper/PermissionEntity.java" />
         <option value="$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/mapper/UserGroupMapper.java" />
         <option value="$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/service/impl/IUserService.java" />
         <option value="$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/vo/IUserService.java" />
-        <option value="$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/mapper/SystemUserMapper.java" />
         <option value="$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/config/MyRealm.java" />
         <option value="$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/config/MyAuthorizingRealm.java" />
         <option value="$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/vo/SystemUserVo.java" />
@@ -275,9 +267,12 @@
         <option value="$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/service/IPermissionService.java" />
         <option value="$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/mapper/PermissionMapper.java" />
         <option value="$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/service/impl/PermissionServiceImpl.java" />
-        <option value="$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/config/ShiroConfig.java" />
         <option value="$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/controller/SystemUserController.java" />
+        <option value="$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/mapper/SystemUserMapper.java" />
         <option value="$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/config/SystemUserAuthorizingRealm.java" />
+        <option value="$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/config/ShiroConfig.java" />
+        <option value="$PROJECT_DIR$/multidatasource/src/test/java/com/xiayu/user/UserTest.java" />
+        <option value="$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/entity/SystemUserEntity.java" />
       </list>
     </option>
   </component>
@@ -422,6 +417,30 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="springbootexample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springbootexample" type="462c0819:PsiDirectoryNode" />
+              <item name="multidatasource" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springbootexample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springbootexample" type="462c0819:PsiDirectoryNode" />
+              <item name="multidatasource" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springbootexample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springbootexample" type="462c0819:PsiDirectoryNode" />
+              <item name="multidatasource" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -438,10 +457,11 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1577003352960" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1577009397063" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../springboot-shiro" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -478,7 +498,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.MultiDataSourceApplication">
+  <component name="RunManager" selected="JUnit.UserTest.testSalt">
     <configuration name="BusinessTest.testInsertOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="multidatasource" />
       <extension name="coverage">
@@ -543,7 +563,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserTest.testGetValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserTest.testSalt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="multidatasource" />
       <extension name="coverage">
         <pattern>
@@ -553,13 +573,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.xiayu.user" />
       <option name="MAIN_CLASS_NAME" value="com.xiayu.user.UserTest" />
-      <option name="METHOD_NAME" value="testGetValue" />
+      <option name="METHOD_NAME" value="testSalt" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserTest.testRedisTemplate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserTest.testSystemUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="multidatasource" />
       <extension name="coverage">
         <pattern>
@@ -569,7 +589,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.xiayu.user" />
       <option name="MAIN_CLASS_NAME" value="com.xiayu.user.UserTest" />
-      <option name="METHOD_NAME" value="testRedisTemplate" />
+      <option name="METHOD_NAME" value="testSystemUser" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -584,11 +604,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UserTest.testSalt" />
+        <item itemvalue="JUnit.UserTest.testSystemUser" />
         <item itemvalue="JUnit.BusinessTest.testLog" />
         <item itemvalue="JUnit.BusinessTest.testInsertOrder" />
         <item itemvalue="JUnit.OrderTest.testInsertOrder" />
-        <item itemvalue="JUnit.UserTest.testGetValue" />
-        <item itemvalue="JUnit.UserTest.testRedisTemplate" />
       </list>
     </recent_temporary>
   </component>
@@ -603,7 +623,7 @@
       <option name="presentableId" value="Default" />
       <updated>1576203280800</updated>
       <workItem from="1576203286133" duration="37391000" />
-      <workItem from="1576568396064" duration="54007000" />
+      <workItem from="1576568396064" duration="60032000" />
     </task>
     <task id="LOCAL-00001" summary="增加redis整合">
       <created>1576230257518</created>
@@ -668,49 +688,56 @@
       <option name="project" value="LOCAL" />
       <updated>1576811684904</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="改进shiro配置">
+      <created>1577003542366</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1577003542366</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BusinessTest_testInsertOrder - 2019.12.20 at 10h 03m 52s.xml">
-      <configuration name="BusinessTest.testInsertOrder" configurationId="JUnit" />
+    <history-entry file="UserTest_testSalt - 2019.12.22 at 17h 09m 58s.xml">
+      <configuration name="UserTest.testSalt" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BusinessTest_testInsertOrder - 2019.12.20 at 10h 13m 08s.xml">
-      <configuration name="BusinessTest.testInsertOrder" configurationId="JUnit" />
+    <history-entry file="UserTest_testSalt - 2019.12.22 at 17h 12m 20s.xml">
+      <configuration name="UserTest.testSalt" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BusinessTest_testInsertOrder - 2019.12.20 at 10h 15m 51s.xml">
-      <configuration name="BusinessTest.testInsertOrder" configurationId="JUnit" />
+    <history-entry file="UserTest_testSalt - 2019.12.22 at 17h 31m 28s.xml">
+      <configuration name="UserTest.testSalt" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BusinessTest_testInsertOrder - 2019.12.20 at 10h 17m 36s.xml">
-      <configuration name="BusinessTest.testInsertOrder" configurationId="JUnit" />
+    <history-entry file="UserTest_testSalt - 2019.12.22 at 17h 32m 57s.xml">
+      <configuration name="UserTest.testSalt" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BusinessTest_testInsertOrder - 2019.12.20 at 10h 19m 54s.xml">
-      <configuration name="BusinessTest.testInsertOrder" configurationId="JUnit" />
+    <history-entry file="UserTest_testSalt - 2019.12.22 at 17h 47m 49s.xml">
+      <configuration name="UserTest.testSalt" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BusinessTest_testInsertOrder - 2019.12.20 at 11h 06m 11s.xml">
-      <configuration name="BusinessTest.testInsertOrder" configurationId="JUnit" />
+    <history-entry file="UserTest_testSalt - 2019.12.22 at 17h 53m 30s.xml">
+      <configuration name="UserTest.testSalt" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BusinessTest_testInsertOrder - 2019.12.20 at 11h 06m 45s.xml">
-      <configuration name="BusinessTest.testInsertOrder" configurationId="JUnit" />
+    <history-entry file="UserTest_testSalt - 2019.12.22 at 18h 04m 54s.xml">
+      <configuration name="UserTest.testSalt" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BusinessTest_testLog - 2019.12.20 at 11h 08m 23s.xml">
-      <configuration name="BusinessTest.testLog" configurationId="JUnit" />
+    <history-entry file="UserTest_testSalt - 2019.12.22 at 18h 05m 15s.xml">
+      <configuration name="UserTest.testSalt" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BusinessTest_testLog - 2019.12.20 at 11h 11m 43s.xml">
-      <configuration name="BusinessTest.testLog" configurationId="JUnit" />
+    <history-entry file="UserTest_testSalt - 2019.12.22 at 18h 06m 39s.xml">
+      <configuration name="UserTest.testSalt" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BusinessTest_testLog - 2019.12.20 at 11h 13m 13s.xml">
-      <configuration name="BusinessTest.testLog" configurationId="JUnit" />
+    <history-entry file="UserTest_testSalt - 2019.12.22 at 18h 07m 31s.xml">
+      <configuration name="UserTest.testSalt" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="91398000" />
+    <option name="totallyTimeSpent" value="97423000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2935657" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2935657" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -720,8 +747,8 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.5056657" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3555241" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.407932" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.4036827" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -761,7 +788,8 @@
     <MESSAGE value="尝试将垂直分库的配置放在application.yml里面，但是失败了" />
     <MESSAGE value="修改项目名称" />
     <MESSAGE value="增加日志" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加日志" />
+    <MESSAGE value="改进shiro配置" />
+    <option name="LAST_COMMIT_MESSAGE" value="改进shiro配置" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -773,177 +801,27 @@
           <option name="timeStamp" value="20" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/config/SystemUserAuthorizingRealm.java</url>
-          <line>47</line>
+          <url>file://$PROJECT_DIR$/multidatasource/src/test/java/com/xiayu/user/UserTest.java</url>
+          <line>67</line>
           <properties />
-          <option name="timeStamp" value="28" />
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/multidatasource/src/test/java/com/xiayu/user/UserTest.java</url>
+          <line>69</line>
+          <properties />
+          <option name="timeStamp" value="38" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/config/SystemUserAuthorizingRealm.java</url>
-          <line>51</line>
+          <line>83</line>
           <properties />
-          <option name="timeStamp" value="29" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/config/SystemUserAuthorizingRealm.java</url>
-          <line>48</line>
-          <properties />
-          <option name="timeStamp" value="30" />
+          <option name="timeStamp" value="39" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/entity/PermissionGroup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="10" column="19" lean-forward="true" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/multidatasource/src/main/resources/sql/create.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-140">
-          <caret line="50" column="30" selection-start-line="50" selection-start-column="29" selection-end-line="50" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/entity/BusinessEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/entity/AddressEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="27" lean-forward="true" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/entity/UserEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/entity/PermissionEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/entity/UserGroup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="13" column="32" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/mapper/UserGroupMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/service/impl/AddressServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/util/Objects.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="245" column="26" selection-start-line="245" selection-start-column="26" selection-end-line="245" selection-end-column="26" />
-          <folding>
-            <element signature="e#8380#8381#0" expanded="true" />
-            <element signature="e#8414#8415#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/util/Collection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="160" column="12" selection-start-line="160" selection-start-column="12" selection-end-line="160" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/SpringMVC-Mybatis-Shiro-redis-0.2-master/init/sql/init.data.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="598">
-          <caret line="26" column="54" selection-start-line="26" selection-start-column="53" selection-end-line="26" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/SpringMVC-Mybatis-Shiro-redis-0.2-master/init/sql/init_shiro_demo.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-69">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/SpringMVC-Mybatis-Shiro-redis-0.2-master/init/sql/tables.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="18" column="30" lean-forward="true" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/SpringMVC-Mybatis-Shiro-redis-0.2-master/src/main/resources/config.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="33" lean-forward="true" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/SpringMVC-Mybatis-Shiro-redis-0.2-master/src/main/resources/jdbc.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="20" column="17" lean-forward="true" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/SpringMVC-Mybatis-Shiro-redis-0.2-master/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="29" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/SpringMVC-Mybatis-Shiro-redis-0.2-master/src/main/resources/mybatis-config.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/SpringMVC-Mybatis-Shiro-redis-0.2-master/src/main/resources/shiro-config.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/SpringMVC-Mybatis-Shiro-redis-0.2-master/src/main/resources/shiro_base_auth.ini">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$USER_HOME$/Downloads/SpringMVC-Mybatis-Shiro-redis-0.2-master/src/main/resources/spring.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-371" />
@@ -1021,27 +899,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/service/ISystemUserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.3.6.RELEASE/spring-beans-4.3.6.RELEASE.jar!/org/springframework/beans/BeanUtils.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="145">
           <caret line="288" column="23" selection-start-line="288" selection-start-column="23" selection-end-line="288" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/entity/SystemUserEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -1061,30 +922,6 @@
           <caret line="19" column="44" lean-forward="true" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/mapper/SystemUserMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="44" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/service/impl/SystemUserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="897">
-          <caret line="45" column="66" selection-start-line="45" selection-start-column="66" selection-end-line="45" selection-end-column="66" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#926#927#0" expanded="true" />
-            <element signature="e#954#955#0" expanded="true" />
-            <element signature="e#1007#1008#0" expanded="true" />
-            <element signature="e#1035#1036#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1139,32 +976,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/config/ShiroConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2321#2322#0" expanded="true" />
-            <element signature="e#2376#2377#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/controller/SystemUserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="56" column="55" lean-forward="true" selection-start-line="56" selection-start-column="55" selection-end-line="56" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2137#2138#0" expanded="true" />
-            <element signature="e#2165#2166#0" expanded="true" />
-            <element signature="e#2227#2228#0" expanded="true" />
-            <element signature="e#2255#2256#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/1.8.0.RELEASE/spring-data-redis-1.8.0.RELEASE.jar!/org/springframework/data/redis/core/RedisTemplate.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -1192,10 +1003,223 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/config/SystemUserAuthorizingRealm.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.4.2/shiro-core-1.4.2.jar!/org/apache/shiro/realm/AuthorizingRealm.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="37" column="60" selection-start-line="37" selection-start-column="60" selection-end-line="37" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/service/ISystemUserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.2/mybatis-3.4.2.jar!/org/apache/ibatis/binding/MapperProxy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/lang/reflect/Method.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="184" selection-start-line="184" selection-end-line="184" />
+          <folding>
+            <element signature="e#6052#6053#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/service/impl/SystemUserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.4.2/shiro-core-1.4.2.jar!/org/apache/shiro/subject/support/DelegatingSubject.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="184" column="50" lean-forward="true" selection-start-line="184" selection-start-column="50" selection-end-line="184" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.4.2/shiro-core-1.4.2.jar!/org/apache/shiro/mgt/DefaultSecurityManager.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="147" column="32" selection-start-line="147" selection-start-column="32" selection-end-line="147" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.4.2/shiro-core-1.4.2.jar!/org/apache/shiro/authc/Authenticator.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.4.2/shiro-core-1.4.2.jar!/org/apache/shiro/realm/AuthenticatingRealm.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="204" column="27" lean-forward="true" selection-start-line="204" selection-start-column="27" selection-end-line="204" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.4.2/shiro-core-1.4.2.jar!/org/apache/shiro/realm/Realm.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.4.2/shiro-core-1.4.2.jar!/org/apache/shiro/authc/pam/ModularRealmAuthenticator.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="58" column="58" selection-start-line="58" selection-start-column="58" selection-end-line="58" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.4.2/shiro-core-1.4.2.jar!/org/apache/shiro/authc/AbstractAuthenticator.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="113" column="42" selection-start-line="113" selection-start-column="42" selection-end-line="113" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.4.2/shiro-core-1.4.2.jar!/org/apache/shiro/mgt/AuthenticatingSecurityManager.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="42" column="37" lean-forward="true" selection-start-line="42" selection-start-column="37" selection-end-line="42" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.4.2/shiro-core-1.4.2.jar!/org/apache/shiro/mgt/SecurityManager.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.4.2/shiro-core-1.4.2.jar!/org/apache/shiro/subject/Subject.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="58" column="9" selection-start-line="58" selection-start-column="9" selection-end-line="58" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.4.2/shiro-core-1.4.2.jar!/org/apache/shiro/authc/UsernamePasswordToken.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.4.2/shiro-core-1.4.2.jar!/org/apache/shiro/crypto/hash/Md5Hash.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="25" column="65" selection-start-line="25" selection-start-column="51" selection-end-line="25" selection-end-column="65" />
+          <folding>
+            <element signature="e#601#602#0" expanded="true" />
+            <element signature="e#659#660#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/mapper/SystemUserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="25" column="62" lean-forward="true" selection-start-line="25" selection-start-column="62" selection-end-line="25" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.4.2/shiro-core-1.4.2.jar!/org/apache/shiro/authc/SimpleAuthenticationInfo.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="18" column="41" lean-forward="true" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/controller/SystemUserController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
-          <caret line="50" column="13" lean-forward="true" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
+          <caret line="41" column="27" lean-forward="true" selection-start-line="41" selection-start-column="27" selection-end-line="41" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/config/ShiroConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="30" column="48" lean-forward="true" selection-start-line="30" selection-start-column="48" selection-end-line="30" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/config/SystemUserAuthorizingRealm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="82" column="12" selection-start-line="82" selection-start-column="12" selection-end-line="82" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.4.2/shiro-core-1.4.2.jar!/org/apache/shiro/crypto/hash/SimpleHash.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-215">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multidatasource/src/test/java/com/xiayu/user/UserTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="66" column="11" lean-forward="true" selection-start-line="66" selection-start-column="11" selection-end-line="66" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multidatasource/src/test/java/com/xiayu/user/OrderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multidatasource/src/test/java/com/xiayu/user/BusinessTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multidatasource/src/main/java/com/xiayu/entity/SystemUserEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="9" column="75" lean-forward="true" selection-start-line="9" selection-start-column="75" selection-end-line="9" selection-end-column="75" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

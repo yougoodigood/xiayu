@@ -40,6 +40,8 @@ public class SystemUserController {
             return "未知账户";
         }catch (IncorrectCredentialsException e) {
             return "错误的密码";
+        }catch (Exception e){
+            return "未知错误";
         }
 
         if (subject.isAuthenticated()){

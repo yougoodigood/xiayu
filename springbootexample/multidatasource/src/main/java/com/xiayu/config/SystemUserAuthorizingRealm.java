@@ -9,17 +9,19 @@ import org.apache.shiro.authc.AuthenticationToken;
 import org.apache.shiro.authc.SimpleAuthenticationInfo;
 import org.apache.shiro.authz.AuthorizationInfo;
 import org.apache.shiro.authz.SimpleAuthorizationInfo;
+import org.apache.shiro.crypto.hash.Md5Hash;
 import org.apache.shiro.realm.AuthorizingRealm;
 import org.apache.shiro.subject.PrincipalCollection;
+import org.apache.shiro.util.ByteSource;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.stereotype.Component;
+import sun.security.provider.MD5;
 
 import java.util.Arrays;
 import java.util.List;
 import java.util.Objects;
 
-@Component
 public class SystemUserAuthorizingRealm extends AuthorizingRealm {
 
     @Autowired
@@ -71,11 +73,14 @@ public class SystemUserAuthorizingRealm extends AuthorizingRealm {
         }
         //获取用户信息
         SystemUserEntity systemUser = systemUserService.getSystemUserByUserName(userName);
-        if (Objects.isNull(systemUser)) {
+        if (Objects.isNull(systemUser) || Objects.isNull(systemUser.getUserName())) {
             return null;
         } else {
+            //获取用户的颜值
+//            ByteSource credentialsSalt = ByteSource.Util.bytes(systemUser.getUserName());
+            ByteSource credentialsSalt = ByteSource.Util.bytes(systemUser.getUserName());
             //这里验证authenticationToken和simpleAuthenticationInfo的信息
-            SimpleAuthenticationInfo simpleAuthenticationInfo = new SimpleAuthenticationInfo(userName, systemUser.getPassword(), getName());
+            SimpleAuthenticationInfo simpleAuthenticationInfo = new SimpleAuthenticationInfo(userName, systemUser.getPassword(),credentialsSalt, getName());
             return simpleAuthenticationInfo;
         }
     }
