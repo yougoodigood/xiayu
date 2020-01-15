@@ -1,17 +1,19 @@
-package com.xiayu.log;
+package com.xiayu.message;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.io.Serializable;
+
 @Data
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-public class Message {
+public class Message implements Serializable {
     private String basename;
-    private String localeLang;
-    private String k;
-    private String v;
+    private String language;
+    private String key;
+    private String value;
 }
