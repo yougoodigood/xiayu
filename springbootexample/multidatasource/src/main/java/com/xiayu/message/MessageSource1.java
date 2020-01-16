@@ -7,7 +7,7 @@ import org.springframework.core.io.ResourceLoader;
 import java.text.MessageFormat;
 import java.util.Locale;
 
-public class MessageSource extends AbstractMessageSource implements ResourceLoaderAware {
+public class MessageSource1 extends AbstractMessageSource implements ResourceLoaderAware {
     @Override
     public void setResourceLoader(ResourceLoader resourceLoader) {
 

@@ -3,13 +3,19 @@ package com.xiayu.message;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cache.annotation.CacheConfig;
+import org.springframework.cache.annotation.Cacheable;
+import org.springframework.stereotype.Service;
 
 import javax.sql.DataSource;
 import java.sql.*;
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
-
+@Service
+@CacheConfig(cacheNames = "messages")
 public class MessageDao {
 
     private static final Logger log = LoggerFactory.getLogger(MessageDao.class);
@@ -17,15 +23,22 @@ public class MessageDao {
     @Autowired
     DataSource dataSource;
 
-    private static String QUERY_SQL = "select basename,language,key,value from t_message";
+    private static String QUERY_SQL = "select basename,lan,k,v from t_message";
 
-    public List<Message> loadMessage(){
+    private static String QUERY_MESSAGE_SQL = "select base_name,lan,k,v from t_message where lan = ? and k = ?";
+
+    private static String QUERY_MESSAGE_VALUE_SQL = "select v from t_message where lan = ? and k = ? and base_name = ?";
+
+    private static String QUERY_MESSAGE_KEYS_SQL = "select k from t_message where lan = ? and base_name = ?";
+
+    @Cacheable
+    public List<Message> loadMessages(){
         List<Message> list = new ArrayList<>();
         try (Connection conn = dataSource.getConnection()) {
             try (PreparedStatement stmt = conn.prepareStatement(QUERY_SQL)) {
                 try (ResultSet rs = stmt.executeQuery()) {
                     while (rs.next()) {
-                        list.add(Message.builder().basename(rs.getString("basename")).language(rs.getString("language")).key(rs.getString("key")).value(rs.getString("v")).build());
+                        list.add(Message.builder().basename(rs.getString("base_name")).language(rs.getString("lan")).key(rs.getString("k")).value(rs.getString("v")).build());
                     }
                 }
             }
@@ -36,98 +49,82 @@ public class MessageDao {
         return list;
     }
 
-//    public List<Message> loadMessageByBasenameAndKey(String basename,String key){
-//        List<Message> list = new ArrayList<>();
-//        try (Connection conn = dataSource.getConnection()) {
-//            try (PreparedStatement stmt = conn.prepareStatement(QUERY_By_KEy_SQL)) {
-//                stmt.setString(1, basename);
-//                stmt.setString(2, key);
-//                try (ResultSet rs = stmt.executeQuery()) {
-//                    while (rs.next()) {
-//                        list.add(Message.builder().basename(rs.getString("basename")).localeLang(rs.getString("localLang")).k(rs.getString("k")).v(rs.getString("v")).build());
-//                    }
-//                }
-//            }
-//        } catch (SQLException e) {
-//            log.debug(e.getMessage(), e);
-//        }
-//        return list;
-//    }
+    @Cacheable
+    public Message getMessageByLanguageAndKey(String language,String key){
+        try (Connection conn = dataSource.getConnection()) {
+            try (PreparedStatement stmt = conn.prepareStatement(QUERY_MESSAGE_SQL)) {
+                stmt.setString(1,language);
+                stmt.setString(2,key);
+                try(ResultSet rs = stmt.executeQuery()) {
+                    if (rs.next()){
+                        String baseName = rs.getString("base_name");
+                        String lan = rs.getString("lan");
+                        String k = rs.getString("k");
+                        String v = rs.getString("v");
+                        return Message.builder().basename(baseName)
+                                .language(lan)
+                                .key(k)
+                                .value(v)
+                                .build();
+                    }else {
+                        return null;
+                    }
+                }catch (SQLException e){
+                    log.debug(e.getMessage(),e);
+                    return null;
+                }
+            }
+        } catch (SQLException e) {
+            log.debug(e.getMessage(), e);
+            return null;
+        }
+    }
 
-//    public boolean checkExist(Message message){
-//        try (Connection conn = dataSource.getConnection()) {
-//            try (PreparedStatement stmt = conn.prepareStatement(CHECK_EXIST)) {
-//                stmt.setString(1, message.getBasename());
-//                stmt.setString(2, message.getLocaleLang());
-//                stmt.setString(3, message.getK());
-//                try (ResultSet rs = stmt.executeQuery()) {
-//                    while (rs.next()) {
-//                        return true;
-//                    }
-//                }
-//            }
-//        } catch (SQLException e) {
-//            log.debug(e.getMessage(), e);
-//        }
-//        return false;
-//    }
-//
-//    public int updateMessage(Message message){
-//        try (Connection conn = dataSource.getConnection()) {
-//            try (PreparedStatement stmt = conn.prepareStatement(UPDATE_SQL)) {
-//                stmt.setString(1, message.getV());
-//                stmt.setString(2, message.getBasename());
-//                stmt.setString(3, message.getLocaleLang());
-//                stmt.setString(4, message.getK());
-//                return stmt.executeUpdate();
-//            }
-//        } catch (SQLException e) {
-//            log.debug(e.getMessage(), e);
-//        }
-//        return -1;
-//    }
-//
-//    public int create(Message message){
-//        try (Connection conn = dataSource.getConnection()) {
-//            try (PreparedStatement stmt = conn.prepareStatement(CREATE_SQL)) {
-//                stmt.setString(1, message.getBasename());
-//                stmt.setString(2, message.getLocaleLang());
-//                stmt.setString(3, message.getK());
-//                stmt.setString(4, message.getV());
-//                return stmt.executeUpdate();
-//            }
-//        } catch (SQLException e) {
-//            log.debug(e.getMessage(), e);
-//        }
-//        return -1;
-//    }
-//
-//    public List<Message> getAll() {
-//        try (Connection conn = dataSource.getConnection()) {
-//            try (Statement stmt = conn.createStatement()) {
-//                List<Message> l = new ArrayList<>();
-//                try (ResultSet rs = stmt.executeQuery("SELECT * from T_CFG_MESSAGES")) {
-//                    while (rs.next()) {
-//                        l.add(Message.builder().basename(rs.getString("basename")).localeLang(rs.getString("locale_lang")).k(rs.getString("k")).v(rs.getString("v")).build());
-//                    }
-//                }
-//                return l;
-//            }
-//        } catch (SQLException e) {
-//            log.debug(e.getMessage(), e);
-//            return new ArrayList<>();
-//        }
-//    }
+    @Cacheable
+    public String getMessageByBaseNameAndLanguageAndKey(String baseName,String language,String key){
+        try (Connection conn = dataSource.getConnection()) {
+            try (PreparedStatement stmt = conn.prepareStatement(QUERY_MESSAGE_VALUE_SQL)) {
+                stmt.setString(1,language);
+                stmt.setString(2,key);
+                stmt.setString(3,baseName);
+                try(ResultSet rs = stmt.executeQuery()) {
+                    if (rs.next()){
+                        return rs.getString("v");
+                    }else {
+                        return null;
+                    }
+                }catch (SQLException e){
+                    log.debug(e.getMessage(),e);
+                    return null;
+                }
+            }
+        } catch (SQLException e) {
+            log.debug(e.getMessage(), e);
+            return null;
+        }
+    }
 
-    //    private static String QUERY_SQL = "select basename,locale_lang as localLang,k,v from T_CFG_MESSAGES where basename=?";
-//
-//    private static String QUERY_By_KEy_SQL = "select basename,locale_lang as localLang,k,v from T_CFG_MESSAGES where basename=? and k =?";
-//
-//    private static String UPDATE_SQL = "update T_CFG_MESSAGES set v=? where basename=? and locale_lang=? and k=?";
-//
-//    private static String CREATE_SQL = "insert into T_CFG_MESSAGES (basename,locale_lang,k,v) values(?,?,?,?)";
-//
-//    private static String CHECK_EXIST = "select basename,locale_lang as localLang,k,v from T_CFG_MESSAGES where basename=? and locale_lang=? and k=?";
-
+    @Cacheable
+    public Set<String> loadKeysFromDb(String baseName, String language){
+        Set<String> keys = new HashSet<>();
+        try (Connection conn = dataSource.getConnection()) {
+            try (PreparedStatement stmt = conn.prepareStatement(QUERY_MESSAGE_KEYS_SQL)) {
+                stmt.setString(1,language);
+                stmt.setString(2,baseName);
+                try(ResultSet rs = stmt.executeQuery()) {
+                    while (rs.next()){
+                        keys.add(rs.getString("k"));
+                    }
+                    return keys;
+                }catch (SQLException e){
+                    log.debug(e.getMessage(),e);
+                    return keys;
+                }
+            }
+        } catch (SQLException e) {
+            log.debug(e.getMessage(), e);
+            return keys;
+        }
+    }
 }
 

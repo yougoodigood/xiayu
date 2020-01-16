@@ -12,6 +12,8 @@ import java.sql.SQLException;
 import java.util.*;
 
 public class MessageAbstract extends ResourceBundleMessageSource{
+
+
 }
 
 
