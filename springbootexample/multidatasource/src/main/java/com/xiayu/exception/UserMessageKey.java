@@ -1,6 +1,5 @@
 package com.xiayu.exception;
 
-import lombok.Getter;
 
 public enum UserMessageKey implements MessageKey{
 
