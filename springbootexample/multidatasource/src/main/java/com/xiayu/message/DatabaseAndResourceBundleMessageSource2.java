@@ -4,6 +4,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.support.ResourceBundleMessageSource;
+import org.springframework.stereotype.Service;
 
 import javax.sql.DataSource;
 import java.sql.Connection;
@@ -11,6 +12,7 @@ import java.sql.PreparedStatement;
 import java.sql.SQLException;
 import java.util.*;
 
+@Service
 public class DatabaseAndResourceBundleMessageSource2 extends ResourceBundleMessageSource {
 
     private static final Logger log = LoggerFactory.getLogger(DatabaseAndResourceBundleMessageSource2.class);
@@ -19,7 +21,7 @@ public class DatabaseAndResourceBundleMessageSource2 extends ResourceBundleMessa
     DataSource dataSource;
 
     @Autowired
-    DatabaseMessageHandler databaseMessageHandler;
+    MessageDBHandler databaseMessageHandler;
 
     @Override
     protected ResourceBundle doGetBundle(String basename, Locale locale) throws MissingResourceException {

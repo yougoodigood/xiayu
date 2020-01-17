@@ -3,6 +3,7 @@ package com.xiayu.message;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cache.annotation.CacheConfig;
 import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Service;
 
@@ -14,13 +15,14 @@ import java.sql.SQLException;
 import java.util.HashSet;
 
 @Service
-public class DatabaseMessageHandler {
+@CacheConfig(cacheNames = "messages")
+public class MessageDBHandler {
     @Autowired
     DataSource dataSource;
 
-    private Logger log = LoggerFactory.getLogger(DatabaseMessageHandler.class);
+    private Logger log = LoggerFactory.getLogger(MessageDBHandler.class);
 
-//    @Cacheable
+    @Cacheable
     public HashSet<String> loadKeysFromDb(String basename, String language){
         try (Connection conn = dataSource.getConnection()) {
             try (PreparedStatement stmt = conn.prepareStatement("SELECT K FROM T_CFG_MESSAGES WHERE BASENAME=? AND LOCALE_LANG=?")) {
@@ -35,14 +37,12 @@ public class DatabaseMessageHandler {
                 }
             }
         } catch (SQLException e) {
-            // this is normal and expected if the table dont exist (a totally acceptable scenario)
-            if(log.isDebugEnabled())
-                log.debug(e.getMessage(), e);
+            log.debug(e.getMessage(), e);
             return new HashSet<>();
         }
     }
 
-//    @Cacheable
+    @Cacheable
     public String loadMessageFromDb(String basename, String language, String key){
         try (Connection conn = dataSource.getConnection()) {
             try (PreparedStatement stmt = conn.prepareStatement("SELECT V FROM T_CFG_MESSAGES WHERE BASENAME=? AND LOCALE_LANG=? AND K=?")) {

@@ -1,6 +1,6 @@
 package com.xiayu.user;
 
-import com.xiayu.message.DatabaseMessageHandler;
+import com.xiayu.message.MessageDBHandler;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.slf4j.Logger;
@@ -14,12 +14,12 @@ import java.util.Locale;
 
 @SpringBootTest
 @RunWith(SpringRunner.class)
-public class TestDatabaseMessageHandler {
+public class TestMessageDBHandler {
 
     private Logger logger = LoggerFactory.getLogger(this.getClass());
 
     @Autowired
-    private DatabaseMessageHandler databaseMessageHandler;
+    private MessageDBHandler databaseMessageHandler;
 
     @Test
     public void testMethod(){
