@@ -7,11 +7,14 @@ import com.xiayu.vo.AddressVo;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.AutoConfigureAfter;
+import org.springframework.cache.annotation.CacheConfig;
+import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Service;
 
 import java.util.UUID;
 
 @Service
+@CacheConfig(cacheNames = "address")
 public class AddressServiceImpl implements IAddressService {
 
     @Autowired
@@ -26,10 +29,14 @@ public class AddressServiceImpl implements IAddressService {
     }
 
     @Override
+    @Cacheable
     public AddressVo getAddressById(String id) {
         AddressEntity addressEntity = addressMapper.getAddressById(id);
-        AddressVo addressVo = new AddressVo();
-        BeanUtils.copyProperties(addressEntity,addressEntity);
+        AddressVo addressVo = null;
+        if (addressEntity != null){
+            addressVo = new AddressVo();
+            BeanUtils.copyProperties(addressEntity,addressVo);
+        }
         return addressVo;
     }
 }
