@@ -3,12 +3,9 @@ package com.xiayu.config;
 import com.xiayu.constants.DataSourceConstants;
 import com.zaxxer.hikari.HikariDataSource;
 import lombok.Data;
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.context.properties.ConfigurationProperties;
-import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.context.annotation.Primary;
 
 import javax.sql.DataSource;
 
@@ -17,17 +14,16 @@ import javax.sql.DataSource;
 @ConfigurationProperties(prefix = DataSourceConstants.MASTER_DATASOURCE_PREFIX)
 public class MasterDataSourceConfig {
 
-    private String url;
+    private String url = "jdbc:mysql://127.0.0.1:3306/datasource_master?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=false";
 
-    private String username;
+    private String username = "root";
 
-    private String password;
+    private String password = "root";
 
     public MasterDataSourceConfig() {
     }
 
-    @Bean("masterDataSource")
-    @Primary
+//    @Bean("masterDataSource")
     public DataSource dataSource(){
         HikariDataSource dataSource = new HikariDataSource();
         dataSource.setJdbcUrl(url);

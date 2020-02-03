@@ -16,19 +16,19 @@ import javax.sql.DataSource;
 @ConfigurationProperties(prefix = DataSourceConstants.SLAVE_TWO_SECOND_SLAVE_DATASOURCE_PREFIX)
 public class SlaveTwoDataSourceConfig {
 
-    private String jdbcurl;
+    private String url = "jdbc:mysql://127.0.0.1:3306/datasource_slave_two?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=false";
 
-    private String username;
+    private String username = "root";
 
-    private String password;
+    private String password = "root";
 
     public SlaveTwoDataSourceConfig() {
     }
 
-    @Bean("slaveTwoDataSource")
+//    @Bean("slaveTwoDataSource")
     public DataSource dataSource(){
         HikariDataSource dataSource = new HikariDataSource();
-        dataSource.setJdbcUrl(jdbcurl);
+        dataSource.setJdbcUrl(url);
         dataSource.setUsername(username);
         dataSource.setPassword(password);
         dataSource.setDriverClassName(DataSourceConstants.DRIVER_CLASS_NAME);

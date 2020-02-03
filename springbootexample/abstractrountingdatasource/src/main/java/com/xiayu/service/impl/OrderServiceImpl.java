@@ -1,5 +1,6 @@
 package com.xiayu.service.impl;
 
+import com.xiayu.annotation.DBRouting;
 import com.xiayu.entity.OrderEntity;
 import com.xiayu.mapper.OrderMapper;
 import com.xiayu.service.IOrderService;
@@ -17,6 +18,7 @@ public class OrderServiceImpl implements IOrderService {
         return orderMapper.insertOrder(orderEntity);
     }
 
+    @DBRouting(isRead = "true")
     @Override
     public OrderEntity getOrder(Integer orderId) {
         return orderMapper.getOrderById(orderId);

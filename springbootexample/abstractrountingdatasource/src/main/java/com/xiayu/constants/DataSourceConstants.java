@@ -10,4 +10,12 @@ public class DataSourceConstants {
     public static final String MAPPER_BASEPACKAGE = "com.xiayu.mapper";
 
     public static final String DRIVER_CLASS_NAME = "com.mysql.jdbc.Driver";
+
+    public static final String MASTER_DATA_SOURCE = "masterDataSource";
+
+    public static final String SLAVE_ONE_DATA_SOURCE = "slaveOneDataSource";
+
+    public static final String SLAVE_TWO_DATA_SOURCE = "slaveTwoDataSource";
+
+
 }

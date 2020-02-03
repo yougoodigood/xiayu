@@ -6,7 +6,7 @@ public class XiayuDataSource extends AbstractRoutingDataSource {
 
     @Override
     protected Object determineCurrentLookupKey() {
-        return null;
+        return RequestThreadLocalHolder.getDatabasIndex();
     }
 
 }
