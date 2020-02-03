@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="abstractrountingdatasource" />
         <module name="config-utility" />
         <module name="encrypt-raw-jdbc-example" />
         <module name="encrypt-spring-boot-example" />

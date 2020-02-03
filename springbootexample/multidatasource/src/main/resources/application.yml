@@ -1,13 +1,6 @@
 spring:
   application:
-    name: multidatasource
-#  shardingsphere:
-      ##    sharding:
-      ##      tables:
-      ##        t_order:
-      ##          actual-data-nodes: ds_1.t_order
-    ##        t_business:
-    ##          actual-data-nodes: ds_2.t_business
+    name: XiaYuApplication
 server:
   port: 8082
 mybatis:
@@ -17,27 +10,12 @@ mybatis:
       username: root
       password: root
 
-#  primary:
-#    datasource:
-#      url: jdbc:mysql://127.0.0.1:3306/multidatasource1%s?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=false
-#      username: root
-#      password: root
-#  first-slave:
-#    datasource:
-#      url: jdbc:mysql://127.0.0.1:3306/multidatasource2?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=false
-#      username: root
-#      password: root
-#  second-slave:
-#    datasource:
-#      url: jdbc:mysql://127.0.0.1:3306/multidatasource3?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=false
-#      username: root
-#      password: root
-  redis:
-    host: 127.0.0.1
-    port: 6379
-    pool:
-      max-idle: 20
-      min-idle: 1
-      max-active: 20
-      max-wait: 6000
-    database: 0
+redis:
+  host: 127.0.0.1
+  port: 6379
+  pool:
+    max-idle: 20
+    min-idle: 1
+    max-active: 20
+    max-wait: 6000
+  database: 0
