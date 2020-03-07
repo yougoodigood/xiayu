@@ -3,8 +3,8 @@ package com.xiayu.config;
 
 import com.xiayu.constants.DataSourceConstants;
 import lombok.Data;
-import lombok.Setter;
 import org.apache.ibatis.session.SqlSessionFactory;
+import org.greenrobot.eventbus.EventBus;
 import org.mybatis.spring.SqlSessionFactoryBean;
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.beans.factory.annotation.Qualifier;
@@ -13,7 +13,6 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Primary;
 import org.springframework.jdbc.datasource.DataSourceTransactionManager;
 
-import javax.annotation.Resource;
 import javax.sql.DataSource;
 import java.sql.SQLException;
 import java.util.HashMap;
@@ -75,4 +74,7 @@ public class DatasourceConfig {
         sessionFactoryBean.setDataSource(xiayuDataSource);
         return sessionFactoryBean.getObject();
     }
+
+
+
 }

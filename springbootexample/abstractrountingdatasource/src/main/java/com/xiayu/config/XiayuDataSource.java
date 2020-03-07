@@ -8,5 +8,4 @@ public class XiayuDataSource extends AbstractRoutingDataSource {
     protected Object determineCurrentLookupKey() {
         return RequestThreadLocalHolder.getDatabasIndex();
     }
-
 }

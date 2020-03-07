@@ -1,5 +1,7 @@
 package com.xiayu.config;
 
+import com.xiayu.constants.DataSourceConstants;
+
 import java.util.Locale;
 
 public class RequestThreadLocalHolder {
@@ -7,7 +9,7 @@ public class RequestThreadLocalHolder {
     private static ThreadLocal<String> databaseIndex = new ThreadLocal<String>(){
         @Override
         protected String initialValue() {
-            return "databaseIndexDefaultValue";
+            return DataSourceConstants.MASTER_DATA_SOURCE;
         }
     };
 
