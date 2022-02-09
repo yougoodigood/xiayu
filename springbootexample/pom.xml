@@ -56,7 +56,7 @@
         <redis.version>1.4.3.RELEASE</redis.version>
         <shardingsphere.version>4.0.0-RC3</shardingsphere.version>
         <hikaricp.version>3.4.1</hikaricp.version>
-        <shiro.verion>1.4.2</shiro.verion>
+        <shiro.verion>1.7.1</shiro.verion>
         <quartz.version>2.2.3</quartz.version>
         <!--<lombok.version>1.16.18</lombok.version>-->
         <rocketmq.version>4.1.0-incubating</rocketmq.version>
