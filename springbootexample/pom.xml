@@ -27,7 +27,7 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
         <!-- dependency -->
-        <spring.boot.version>1.5.1.RELEASE</spring.boot.version>
+        <spring.boot.version>2.5.12</spring.boot.version>
         <jstl.version>1.2</jstl.version>
         <apache.jetty.version>9.4.1.v20170120</apache.jetty.version>
         <apache.tomcat.version>8.5.11</apache.tomcat.version>
